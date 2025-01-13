@@ -12,10 +12,17 @@
             line-height: 1.6;
         }
         header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background: #004080;
             color: #fff;
             padding: 10px 20px;
             text-align: center;
+        }
+        header img {
+            height: 50px;
+            margin-right: 20px;
         }
         nav {
             display: flex;
@@ -48,10 +55,22 @@
         h2 {
             color: #004080;
         }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+        .service-image {
+            width: 100%;
+            max-width: 728px;
+            height: auto;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="logo_co.jpg" alt="Company Logo">
         <h1>Cuidado Ocular - Bienvenido</h1>
     </header>
     <nav>
@@ -63,16 +82,18 @@
     <section id="servicios">
         <div class="container">
             <h2>Servicios</h2>
+            <img src="eyerainbow.jpg" alt="Eye Care Services" class="service-image">
             <p>Ofrecemos atención integral para el cuidado de tus ojos, incluyendo:</p>
             <ul>
                 <li>Lipmieza de párpados</li>
-                <li> Spa para ojos</li>
-                <li> Terapia palpebral</li>
+                <li>Spa para ojos</li>
+                <li>Terapia palpebral</li>
             </ul>
         </div>
     </section>
     <section id="privacidad">
         <div class="container">
+            <h2>Política de Privacidad</h2>
             <p>Nos comprometemos a proteger tu información personal. Recopilamos datos únicamente para ofrecer nuestros servicios y cumplir con los requisitos legales. Puedes leer nuestra política completa <a href="politica_de_datos.html">aquí</a>.</p>
         </div>
     </section>
@@ -87,7 +108,7 @@
             <h2>Contacto</h2>
             <p>Si tienes alguna pregunta, no dudes en contactarnos:</p>
             <ul>
-                <li>Teléfono: +4915217560627 </li>
+                <li>Teléfono: +4915217560627</li>
                 <li>Email: eyerestcompany@gmail.com</li>
                 <li>WhatsApp: <a href="https://wa.me/4915217560627" target="_blank">Enviar mensaje</a></li>
             </ul>
@@ -98,4 +119,3 @@
     </footer>
 </body>
 </html>
-
